@@ -7,7 +7,7 @@ export default function FAQ() {
   ];
   return (
     <section>
-      <h2 className="font-display text-2xl font-bold text-navy-deep">
+      <h2 className="font-display text-2xl font-bold text-off-white">
         FAQ
       </h2>
       <Accordion items={items} className="mt-6" />

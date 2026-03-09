@@ -21,7 +21,7 @@ const VALUE_PROPS = [
 
 export default function ValueProps() {
   return (
-    <section className="relative bg-gradient-to-br from-gray-pale/30 via-white/50 to-gray-pale/30 py-16 md:py-24 lg:py-32">
+    <section className="relative bg-gray-pale py-16 md:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <Heading
           as="h2"
@@ -35,7 +35,7 @@ export default function ValueProps() {
         </p>
         <div className="mt-14 grid gap-6 md:grid-cols-3 md:gap-8">
           {VALUE_PROPS.map((item) => (
-            <Card key={item.title} className="flex flex-col">
+            <Card key={item.title} className="flex flex-col bg-black/15 border-black/10 text-navy-deep">
               <h3 className="font-display text-xl font-bold tracking-tight text-construction-orange md:text-2xl">
                 {item.title}
               </h3>
