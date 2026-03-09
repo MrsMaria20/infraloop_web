@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
+/* Design tokens — PRD colors and typography */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand colors */
+  --color-navy-deep: #0B1F35;
+  --color-navy-light: #1A3A57;
+  --color-construction-orange: #E07B2A;
+  --color-charcoal: #1E2428;
+  --color-gray-dark: #3A4550;
+  --color-gray-mid: #6B7A87;
+  --color-gray-light: #B8C5D0;
+  --color-gray-pale: #E8EDF2;
+  --color-off-white: #F5F8FA;
+  --color-brand-black: #0A0C0E;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Colors */
+  --color-navy-deep: #0B1F35;
+  --color-navy-light: #1A3A57;
+  --color-construction-orange: #E07B2A;
+  --color-charcoal: #1E2428;
+  --color-gray-dark: #3A4550;
+  --color-gray-mid: #6B7A87;
+  --color-gray-light: #B8C5D0;
+  --color-gray-pale: #E8EDF2;
+  --color-off-white: #F5F8FA;
+  --color-brand-black: #0A0C0E;
+  /* Font families — set by next/font in layout */
+  --font-display: var(--font-rajdhani), sans-serif;
+  --font-ui: var(--font-barlow-condensed), sans-serif;
+  --font-body: var(--font-barlow), sans-serif;
+  /* Touch target — 44px minimum */
+  --min-height-touch: 44px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-brand-black);
+  color: var(--color-gray-light);
+  font-family: var(--font-body);
 }
