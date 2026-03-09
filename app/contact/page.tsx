@@ -7,10 +7,10 @@ export default function ContactPage() {
   return (
     <>
       <PageSection>
-        <h1 className="font-display text-4xl font-bold text-off-white">
+        <h1 className="font-display text-4xl font-bold text-navy-deep">
           Contact / Demo
         </h1>
-        <p className="mt-4 text-gray-light">
+        <p className="mt-4 text-gray-dark">
           Schedule a demo call or reach out by email. Calendly embed and direct email only — placeholder.
         </p>
         <div className="mt-8">

@@ -6,10 +6,10 @@ export default function PilotSuccessPage() {
   return (
     <>
       <PageSection>
-        <h1 className="font-display text-4xl font-bold text-off-white">
+        <h1 className="font-display text-4xl font-bold text-navy-deep">
           Application received
         </h1>
-        <p className="mt-4 text-gray-light">
+        <p className="mt-4 text-gray-dark">
           Thank you for applying to the pilot. We will be in touch. Placeholder.
         </p>
         <div className="mt-8">

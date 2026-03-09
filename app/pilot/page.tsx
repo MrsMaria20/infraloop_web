@@ -5,10 +5,10 @@ export default function PilotPage() {
   return (
     <>
       <PageSection>
-        <h1 className="font-display text-4xl font-bold text-off-white">
+        <h1 className="font-display text-4xl font-bold text-navy-deep">
           Join the Pilot Program
         </h1>
-        <p className="mt-4 text-gray-light">
+        <p className="mt-4 text-gray-dark">
           Pilot application form (Tally embed) — placeholder.
         </p>
         <div className="mt-8">

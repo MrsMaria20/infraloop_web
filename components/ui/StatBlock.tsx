@@ -11,10 +11,12 @@ export default function StatBlock({
 }: StatBlockProps) {
   return (
     <div className={`text-center ${className}`}>
-      <div className="font-display text-2xl font-bold text-off-white md:text-3xl">
+      <div className="font-display text-2xl font-bold tracking-tight text-navy-deep md:text-3xl">
         {value}
       </div>
-      <div className="mt-1 text-sm text-gray-mid">{label}</div>
+      <div className="mt-2 font-body text-sm leading-snug text-gray-mid md:max-w-[180px] md:mx-auto">
+        {label}
+      </div>
     </div>
   );
 }

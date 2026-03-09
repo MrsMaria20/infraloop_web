@@ -36,7 +36,8 @@
 }
 
 body {
-  background-color: var(--color-brand-black);
-  color: var(--color-gray-light);
+  background: linear-gradient(135deg, #F5F8FA 0%, #E8EDF2 50%, #F5F8FA 100%);
+  background-attachment: fixed;
+  color: var(--color-navy-deep);
   font-family: var(--font-body);
 }

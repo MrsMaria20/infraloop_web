@@ -17,7 +17,7 @@ export default function FormEmbed({
       className={`w-full min-w-0 ${className}`}
       style={{ minHeight }}
     >
-      {children ?? <div className="rounded border border-gray-dark bg-navy-light p-8 text-center text-gray-mid">Form embed placeholder</div>}
+      {children ?? <div className="rounded border border-white/20 bg-white/40 backdrop-blur-md p-8 text-center text-gray-mid shadow-[0_8px_32px_0_rgba(11,31,53,0.12)]">Form embed placeholder</div>}
     </div>
   );
 }

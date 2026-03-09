@@ -2,25 +2,25 @@ import { ROUTES, CTAS } from "@/lib/constants";
 import Button from "@/components/ui/Button";
 import Heading from "@/components/ui/Heading";
 
-export default function HowItWorksTeaser() {
+export default function MarketplacePreviewTeaser() {
   return (
-    <section className="border-y border-white/30 bg-white/60 backdrop-blur-sm py-16 md:py-24 lg:py-32">
+    <section className="relative bg-gradient-to-br from-white/50 via-gray-pale/30 to-white/50 py-16 md:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <Heading
             as="h2"
             className="font-display text-navy-deep text-3xl md:text-4xl"
           >
-            How it works
+            See the platform
           </Heading>
           <p className="mt-6 font-body text-base leading-relaxed text-gray-dark md:text-lg md:leading-loose">
-            Sellers list surplus materials. Buyers search and purchase at a
-            discount. We cover seller and buyer workflows, accepted materials,
-            and logistics — so you know what to expect before you join.
+            Get a visual sense of the marketplace: listing cards, search and
+            filter, and how materials are presented. Preview only — no live
+            marketplace yet.
           </p>
           <div className="mt-10">
-            <Button href={ROUTES.howItWorks} variant="secondary">
-              {CTAS.seeHowItWorks} →
+            <Button href={ROUTES.marketplacePreview} variant="secondary">
+              {CTAS.requestEarlyAccess} →
             </Button>
           </div>
         </div>

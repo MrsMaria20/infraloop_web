@@ -6,10 +6,10 @@ export default function TeamPage() {
   return (
     <>
       <PageSection>
-        <h1 className="font-display text-4xl font-bold text-off-white">
+        <h1 className="font-display text-4xl font-bold text-navy-deep">
           Meet the Team
         </h1>
-        <p className="mt-4 text-gray-light">
+        <p className="mt-4 text-gray-dark">
           Founder bios, advisors, LinkedIn links, team photo — placeholder.
         </p>
         <div className="mt-8">

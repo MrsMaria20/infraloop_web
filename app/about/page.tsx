@@ -6,10 +6,10 @@ export default function AboutPage() {
   return (
     <>
       <PageSection>
-        <h1 className="font-display text-4xl font-bold text-off-white">
+        <h1 className="font-display text-4xl font-bold text-navy-deep">
           About
         </h1>
-        <p className="mt-4 text-gray-light">
+        <p className="mt-4 text-gray-dark">
           Mission, waste stats, approach, values, timeline — placeholder.
         </p>
         <div className="mt-8">
